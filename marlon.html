@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+<title>Grade Calculator</title>
+<!--CSS FILE-->
+<link rel="stylesheet" type="text/css" href="./CSS files/styles2.css">
+</head>
+<div class = "bgContainer">
+<body>
+  <form>
+  <div class = "cStandings">
+	<h1>Prelim Grade</h1>
+  <a href="./MALAZA_NEE-ESTUYE_TINDUGAN_PS2b_Midterms.html">Midterms</a>
+  <a href="./MALAZA_NEE-ESTUYE_TINDUGAN_PS2b_Finals.html">Finals</a>
+</div><!-- 60% Quizzes + 20% Assignments + 20% Laboratory Activities
+		Note: Include 3 Quizzes; 3 Laboratory Activities; and 2 Assignments -->
+  <hr>
+  <div class = "cStandings">
+  <label for="pQuiz1">Quiz 1: </label>
+  <input type="text" id="pQuiz1" name="pQuiz1" placeholder="Input quiz here"><br><br>
+  <label for="pQuiz2">Quiz 2: </label>
+  <input type="text" id="pQuiz2" name="pQuiz2" placeholder="Input quiz here"><br><br>
+  <label for="pQuiz3">Quiz 3: </label>
+  <input type="text" id="pQuiz3" name="pQuiz3" placeholder="Input quiz here"><br><br><br><br>
+
+  <label for="pLab1">Laboratory 1: </label>
+  <input type="text" id="pLab1" name="pLab1" placeholder="Input Laboratory here" ><br><br>
+  <label for="pLab2">Laboratory 2: </label>
+  <input type="text" id="pLab2" name="pLab2" placeholder="Input Laboratory here"><br><br>
+  <label for="pLab3">Laboratory 3: </label>
+  <input type="text" id="pLab3" name="pLab3" placeholder="Input Laboratory here"><br><br><br><br>
+
+  <label for="pAss1">Assignment 1: </label>
+  <input type="text" id="pAss1" name="pAss1" placeholder="Input Assignment here"><br><br>
+  <label for="pAss2">Assignment 2: </label>
+  <input type="text" id="pAss2" name="pAss2" placeholder="Input Assignment here"><br><br><br><br>
+  <label for="pPrelim">Preliminary Exam : </label>
+  <input type="text" id="pPrelim" name="pPrelim" placeholder="Input Prelim here"><br><br>
+<div id = "outer">
+  <div class = "inner"><button type ="button" onClick ="showResultsPrelim()">Calculate </button></div>
+  <div class = "inner"><input type = "reset" value="Reset"></div>
+  <p id = "pGrade"></p>
+
+</div>
+</div>
+  <script src = "./JS files/jscript2.js"></script>
+</form>
+</body>
+</div>
+</html>
